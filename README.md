@@ -83,12 +83,6 @@ heart-risk-day1-starter/
 
 ---
 
-##  Repository
-
-🔗 [GitHub Repository](https://github.com/your-username/heart-risk-prediction)
-
----
-
 ## 🤝 Contributing
 
 Want to improve this project? Follow these steps:
