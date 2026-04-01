@@ -31,41 +31,33 @@ This pipeline helps researchers & healthcare professionals **detect risk early**
 | 8.  Evaluate Models | Confusion Matrix, ROC, AUC | `notebooks/day6_modeling.ipynb` |
 | 9.  Prediction | Predict on unseen test data | `src/app/predict.py` |
 
----
-
-## 📁 Project Structure
-
 heart-risk-day1-starter/
-│── data/
-│ ├── raw/ #  Original dataset (framingham.csv) & OCR reports
-│ ├── interim/ #  Cleaned intermediate data
-│ └── processed/ #  Final datasets ready for modeling
 │
-│── docs/ # Project documentation & reports
-│── models/ # Trained machine learning models
-│── notebooks/ # Jupyter/Colab notebooks (Day 2–6 tasks)
-│── reports/
-│ ├── figures/ # Confusion matrix, ROC curves, plots
-│ └── eda/ # EDA visualizations
+├── data/
+│   ├── raw/            # Original dataset (framingham.csv) & OCR reports
+│   ├── interim/        # Cleaned intermediate data
+│   └── processed/      # Final datasets ready for modeling
 │
-│── src/
-│ ├── data/ # Data preprocessing scripts
-│ ├── features/ # Feature engineering
-│ ├── models/ # Model training & evaluation
-│ ├── pipeline/ # ML pipeline scripts
-│ └── ocr/ # OCR utilities for scanned reports
+├── docs/               # Project documentation & reports
+├── models/             # Trained machine learning models
+├── notebooks/          # Jupyter/Colab notebooks (Day 2–6 tasks)
 │
-│── tests/ # Unit tests
-│── .env # Environment variables (Tesseract path, etc.)
-│── requirements.txt # Project dependencies
-│── README.md # Project documentation (this file)
-│── .gitignore # Ignore unnecessary files in Git
-
-yaml
-Copy
-Edit
-
----
+├── reports/
+│   ├── figures/        # Confusion matrix, ROC curves, plots
+│   └── eda/            # EDA visualizations
+│
+├── src/
+│   ├── data/           # Data preprocessing scripts
+│   ├── features/       # Feature engineering
+│   ├── models/         # Model training & evaluation
+│   ├── pipeline/       # ML pipeline scripts
+│   └── ocr/            # OCR utilities for scanned reports
+│
+├── tests/              # Unit tests
+├── .env                # Environment variables (Tesseract path, etc.)
+├── requirements.txt    # Project dependencies
+├── README.md           # Project documentation
+└── .gitignore          # Ignore unnecessary files in Git
 
 ## 🛠 Tech Stack
 
