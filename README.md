@@ -31,6 +31,8 @@ This pipeline helps researchers & healthcare professionals **detect risk early**
 | 8.  Evaluate Models | Confusion Matrix, ROC, AUC | `notebooks/day6_modeling.ipynb` |
 | 9.  Prediction | Predict on unseen test data | `src/app/predict.py` |
 
+ ---
+# Project Structure
 heart-risk-day1-starter/
 │
 ├── data/
@@ -58,6 +60,8 @@ heart-risk-day1-starter/
 ├── requirements.txt    # Project dependencies
 ├── README.md           # Project documentation
 └── .gitignore          # Ignore unnecessary files in Git
+
+---
 
 ## 🛠 Tech Stack
 
